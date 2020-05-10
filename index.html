@@ -4,34 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Dev'Coffee PWA</title>
-    <link rel="manifest" href="manifest.json" />
-    <!-- ios support -->
-    <link rel="apple-touch-icon" href="images/icons/icon-72x72.png" />
-    <link rel="apple-touch-icon" href="images/icons/icon-96x96.png" />
-    <link rel="apple-touch-icon" href="images/icons/icon-128x128.png" />
-    <link rel="apple-touch-icon" href="images/icons/icon-144x144.png" />
-    <link rel="apple-touch-icon" href="images/icons/icon-152x152.png" />
-    <link rel="apple-touch-icon" href="images/icons/icon-192x192.png" />
-    <link rel="apple-touch-icon" href="images/icons/icon-384x384.png" />
-    <link rel="apple-touch-icon" href="images/icons/icon-512x512.png" />
-    <meta name="apple-mobile-web-app-status-bar" content="#db4938" />
-    <meta name="theme-color" content="#db4938" />
+    <!--For android support-->
+    <link rel="manifest" href="/manifest.json"/>
+     <!--For IOS support-->
+    <link rel="apple-touch-icon" href="icons/icon.png"/>
+    <meta name="apple-mobile-web-app-status-bar" content="#ffffff"/>
+    <meta name="theme-color" content="#ffffff"/>
   </head>
   <body>
     <main>
       <nav>
         <h1>Dev'Coffee</h1>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Blog</li>
+          <a href="/index.html" target="_self">
+            <li>Home</li></a>
+          <a href="/html/about.html" class="active" target="_self">
+            <li>About</li>
+          </a>
+          <a href="/html/blogs.html" target="_self">
+            <li>Blog</li>
+          </a>
+          <a href="/html/contact-us.html" target="_self">
+            <li>Contact US</li>
+          </a>
         </ul>
       </nav>
+      <h1>The Landing page</h1>
       <div class="container"></div>
     </main>
-    <script src="app.js"></script>
-    
   </body>
+  <script src="js/app.js"></script>
 </html>

@@ -1,43 +1,52 @@
 {
-    "name": "Dev'Coffee",
-    "short_name": "DevCoffee",
-    "start_url": "index.html",
-    "display": "standalone",
-    "background_color": "#fdfdfd",
-    "theme_color": "#db4938",
-    "orientation": "portrait-primary",
-    "icons": [
-      {
-        "src": "dummy-image.png",
-        "type": "image/png", "sizes": "72x72"
-      },
-      {
-        "src": "dummy-image.png",
-        "type": "image/png", "sizes": "96x96"
-      },
-      {
-        "src": "dummy-image.png",
-        "type": "image/png","sizes": "128x128"
-      },
-      {
-        "src": "dummy-image.png",
-        "type": "image/png", "sizes": "144x144"
-      },
-      {
-        "src": "dummy-image.png",
-        "type": "image/png", "sizes": "152x152"
-      },
-      {
-        "src": "dummy-image.png",
-        "type": "image/png", "sizes": "192x192"
-      },
-      {
-        "src": "dummy-image.png",
-        "type": "image/png", "sizes": "384x384"
-      },
-      {
-        "src": "dummy-image.png",
-        "type": "image/png", "sizes": "512x512"
-      }
-    ]
-  }
+    "name":"Dev Coffee",
+    "short_name":"Dev-Coffee",
+    "start_url":"/index.html",
+    "display":"minimal-ui",
+    "background_color":"#ffffff",
+    "theme_color":"#ffffff",
+    "orientation":"portrait-primary",
+    "icons":[
+        {
+        "src":"/icons/icon72x72.png",
+        "type":"image/png",
+        "sizes":"72x72"
+        },
+        {
+            "src":"/icons/icon96x96.png",
+            "type":"image/png",
+            "sizes":"96x96"
+            },
+            {
+                "src":"/icons/icon128x128.png",
+                "type":"image/png",
+                "sizes":"128x128"
+                },
+                {
+                    "src":"/icons/icon144x144.png",
+                    "type":"image/png",
+                    "sizes":"144x144"
+                    },
+                    {
+                        "src":"/icons/icon152x152.png",
+                        "type":"image/png",
+                        "sizes":"152x152"
+                        },
+                        {
+                            "src":"/icons/icon192x192.png",
+                            "type":"image/png",
+                            "sizes":"192x192"
+                            },
+                            {
+                                "src":"/icons/icon384x384.png",
+                                "type":"image/png",
+                                "sizes":"384x384"
+                                },
+                                {
+                                    "src":"/icons/icon512x512.png",
+                                    "type":"image/png",
+                                    "sizes":"512x512"
+                                    }
+        
+]
+}
